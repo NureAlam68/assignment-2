@@ -12,7 +12,6 @@ body {
 
 header {
     max-width: 1440px;
-    height: 715px;
     background: linear-gradient(
         180deg,
         rgba(19, 19, 19, 0.747) 0%,
@@ -24,7 +23,7 @@ header {
 nav {
     display: flex;
     align-items: center;
-    margin-top: 57px;
+    padding-top: 57px;
     margin-left: 190px;
     justify-content: space-between;
 }
@@ -179,7 +178,7 @@ nav h3 {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
     background: rgba(48, 48, 48, 0.54);
     display: flex;
     gap: 20px;
@@ -213,8 +212,8 @@ nav h3 {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);  
     position: absolute;
     top: 120px;
     right: -85px;
