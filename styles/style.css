@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 body {
     font-family: "Inter";
     background-color: black;
     color: rgb(255, 255, 255);
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
+}
+
+header {
+    width: 1440px;
+    height: 715px;
+    background: linear-gradient(
+        180deg,
+        rgba(19, 19, 19, 0.747) 0%,
+        rgb(30, 30, 30) 50%,
+        rgba(1, 1, 1, 0) 100%
+        );
 }
 
 nav {
@@ -56,4 +68,180 @@ nav h3 {
     margin-top: -7px;
     box-sizing: border-box;
     padding: 8px 20px;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+}
+
+.banner-part-one {
+    margin-left: 190px;
+    width: 520px;
+    height: 440px;
+    box-sizing: border-box;
+    margin-top: 62px;
+} 
+
+.banner-part-one h1 {
+    color: rgb(255, 255, 255);
+    height: 282px;
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    margin: 0;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+#shape {
+    font-family: 'Miama', sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    box-sizing: border-box;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    margin-top: 28px;
+}
+
+.btn-second {
+    width: 224px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    margin-left: 10px;
+    margin-top: 28px;
+}
+
+.banner-img {
+    margin-left: 190px;
+    width: 349px;
+    height: 580px;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+.circle i {
+    color: rgb(250, 250, 249);
+    position: relative;
+    top: 12px;
+    font-size: 18px;
+}
+
+
+
+.banner-btn-one {
+    height: 96px;
+    width: 206px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 60px;
+    left: 75px;
+}
+
+.banner-btn-content h3 {
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.banner-btn-content p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.banner-btn-two {
+    height: 96px;
+    width: 206px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 120px;
+    right: -85px;
+}
+
+.banner-btn-two-c h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: -5px;
+}
+
+.banner-btn-two-c p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+
+.banner-part-two {
+    position: relative;
 }
