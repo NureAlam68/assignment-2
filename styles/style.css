@@ -321,6 +321,70 @@ nav h3 {
     margin-left: 28px;
 }
 
+/* extra-mile */
+.extra-mile {
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+}
+
+.extra-mile-content {
+    width: 443px;
+    height: 290px;
+    margin-left: 54px;
+    margin-top: 41px;
+}
+
+.extra-mile-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.extra-mile-content > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    width: 400px;
+    margin-top: 14px;
+}
+
+.extra-mile-btn {
+    width: 224px;
+    height: 54px;
+    box-sizing: border-box;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    margin-top: 50px;
+}
+
+.extra-mile-img {
+    width: 366px;
+    height: 312px;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+
+.extra-mile-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    Object-fit: none ;
+    Object-position: 66% 33% ;
+} 
+
 
 
 
