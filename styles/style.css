@@ -256,6 +256,73 @@ nav h3 {
     margin-top: 32px;
 }
 
+/* habits section */
+.habits {
+    width: 1044px;
+    height: 452px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.habits h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.habits p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.habits-img-container {
+    width: 1044px;
+    height: 274px;
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+
+.habit-card {
+    width: 231px;
+    height: 274px;
+}
+
+.habit-card h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.habit-card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.habit-card-img img {
+    height: 170px;
+    width: 170px;
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    margin-left: 28px;
+}
+
+
+
 
 @media screen and (max-width: 576px) {
     .nav-bar {
@@ -357,5 +424,42 @@ nav h3 {
 
     .banner-btn-two-c p {
         font-size: 9.83px;
+    }
+
+    .habits-img-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 338px;
+        height: 1216px;
+        margin-top: 40px;
+    }
+
+    .habits {
+        width: 338px;
+        height: 1398px;
+        margin: 0 auto;
+    }
+
+    .habits h1 {
+        width: 318px;
+        height: 38px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+    } 
+
+    .habits p {
+        font-size: 14px;
+        width: 316px;
+        height: 72px;
+    }
+
+    .habit-card {
+        margin: 0 auto;
+    }
+
+    .habit-card p {
+        width: 231px;
     }
 }
