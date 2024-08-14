@@ -813,6 +813,7 @@ input::placeholder {
 
     .bmi-calculate h2 {
         font-size: 16px;
+        width: 151px;
     }
 
     table {
