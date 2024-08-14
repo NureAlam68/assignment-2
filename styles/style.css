@@ -833,6 +833,7 @@ input::placeholder {
 .program h5 {
     text-align: center;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 /* footer */
