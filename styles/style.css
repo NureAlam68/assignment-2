@@ -1269,12 +1269,30 @@ hr {
     }
 
     .our-programs {
-        display: none;
+        width: auto;
+        margin-top: 66px;
+    }
+
+    .our-programs h1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .our-programs-container {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .program {
+        margin-top: 30px;
     }
 
     .footer {
         height: 986px;
         width: auto;
+        margin-top: 66px;
     }
 
     .footer-container {
