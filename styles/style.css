@@ -627,14 +627,23 @@ input::placeholder {
 .team-img-one {
     width: 326px;
     height: 272px;
-    border-radius: 18px;
-    background-image: url("/images/trainer1.png");
-    filter: brightness(90%);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.team-img-one img, .team-img-two img, .team-img-three img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    filter: brightness(90%);
+}
+
+.team-img-four img, .team-img-five img, .team-img-six img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    filter: brightness(90%);
 }
 
 .team-img-one h3 {
@@ -654,11 +663,6 @@ input::placeholder {
 .team-img-two {
     width: 326px;
     height: 272px;
-    border-radius: 18px;
-    background-image: url("/images/trainer2.png");
-    filter: brightness(90%);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     margin-top: 20px;
     margin-left: 15px;
@@ -682,10 +686,6 @@ input::placeholder {
     width: 326px;
     height: 272px;
     border-radius: 18px;
-    background-image: url("/images/trainer3.png");
-    filter: brightness(90%);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     margin-top: 20px;
     margin-left: 8px;
@@ -708,12 +708,6 @@ input::placeholder {
 .team-img-four {
     width: 326px;
     height: 272px;
-    border-radius: 18px;
-    background-image: url("/images/trainer4.png");
-    filter: brightness(90%);
-    background-position-x: -90px;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     margin-top: 20px;
     margin-left: 20px;
@@ -736,11 +730,6 @@ input::placeholder {
 .team-img-five {
     width: 326px;
     height: 272px;
-    border-radius: 18px;
-    background-image: url("/images/trainer5.png");
-    filter: brightness(90%);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     margin-top: 20px;
     margin-left: 15px;
@@ -763,11 +752,6 @@ input::placeholder {
 .team-img-six {
     width: 326px;
     height: 272px;
-    border-radius: 18px;
-    background-image: url("/images/trainer6.png");
-    filter: brightness(90%);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -788,6 +772,7 @@ input::placeholder {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
+
 
 
 
@@ -1062,6 +1047,7 @@ input::placeholder {
 
     .our-team {
         width: 90%;
+        height: auto;
         margin-top: 66px;
     }
 
@@ -1083,13 +1069,20 @@ input::placeholder {
     .our-team-img {
         grid-template-columns: 1fr;
         width: 95%;
-        height: 1790px;
+        height: 1800px;
         margin-top: 38px;
+        margin: 0 auto;
+        margin-top: 37px;
     }
 
-    .team-img-six, .team-img-one, .team-img-two,
-    .team-img-three, .team-img-four, .team-img-five {
+    .team-img-one {
         margin: 0 auto;
         margin-top: 20px;
+    }
+
+    .team-img-six, .team-img-two,
+    .team-img-three, .team-img-four, .team-img-five {
+        margin: 0 auto;
+        margin-top: 10px;
     }
 }
