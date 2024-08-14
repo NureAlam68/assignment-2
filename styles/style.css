@@ -778,7 +778,6 @@ input::placeholder {
     width: 1440px;
     margin: 0 auto;
     margin-top: 80px;
-    border: 1px solid blue;
 }
 
 .our-programs h1 {
@@ -806,6 +805,34 @@ input::placeholder {
     margin: 0 auto;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
+}
+
+.program p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.program i {
+    color: rgb(230, 83, 60);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.program h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.program h5 {
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* footer */
